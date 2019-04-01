@@ -9,13 +9,14 @@ import { types } from '../../actions/types';
     return null;
 };*/
 
-
 export default (state=[], action) => {
-switch(action.type) {               //switch statement which accepts action type
-    case types.GET_POSTS:
-        return action.payload;
-    default:
-        return state;    
-
-} 
+    switch(action.type){
+        case types.GET_POSTS:
+            return action.payload;
+        default:
+            return state;
+    }
 };
+
+
+//switch statement which accepts action type

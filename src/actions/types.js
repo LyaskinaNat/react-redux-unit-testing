@@ -1,3 +1,3 @@
 export const types = {
-    get_posts: 'getPosts'
+    GET_POSTS: 'getPosts'
 };
